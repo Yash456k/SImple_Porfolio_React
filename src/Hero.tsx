@@ -24,18 +24,18 @@ const Hero = () => {
         variants={textVariants}
         initial="initial"
         animate="animate"
-        className="container mx-auto flex flex-col items-center h-full p-10  py-8 md:py-24  gap-6 text-center"
+        className="container mx-auto flex flex-col items-center justify-center h-full p-8  md:py-10  text-center "
       >
-        <div className="w-full sm:w-full lg:flex items-center justify-center flex-col  mb-5 sm:mb-10">
+        <div className="w-full sm:w-full lg:flex items-center justify-center flex-col mb-14 pb-2 pt-1">
           <motion.h1
             variants={textVariants}
-            className="text-4xl md:text-4xl lg:text-5xl xl:text-6xl text-purple-800 font-extrabold leading-7 md:leading-10 mb-14"
+            className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-purple-800 font-extrabold  mb-6"
           >
             Yash Khambhatta
           </motion.h1>
           <motion.h1
             variants={textVariants}
-            className="text-5xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-blue-800 font-extrabold leading-10 md:leading-normal tracking-wider "
+            className="text-5xl lg:text-7xl xl:text-8xl text-blue-800 font-extrabold leading-normal md:leading-none tracking-wider "
           >
             Full Stack developer
           </motion.h1>
