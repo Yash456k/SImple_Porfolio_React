@@ -1,6 +1,9 @@
 const Explore = () => {
   return (
-    <section className="bg-gray-300 text-sky-800 border-b border-sky-700 text-center lg:py-16 py-10 w-full md:px-12 px-4 flex flex-col items-center justify-center relative gap-10">
+    <section
+      id="Contact"
+      className="bg-gray-300 text-sky-800 border-b border-sky-700 text-center lg:py-16 py-10 w-full md:px-12 px-4 flex flex-col items-center justify-center relative gap-10"
+    >
       <div className="py-10 mx-auto w-10/12">
         <h2 className="text-5xl font-semibold leading-9 mb-10">About me</h2>
         <p className="text-xl md:text-3xl text-black text-justify">

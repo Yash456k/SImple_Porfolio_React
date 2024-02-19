@@ -9,16 +9,16 @@ const Sidebar = ({ open }: { open: boolean }) => {
         <div className="h-full flex justify-center items-center">
           <ul className=" text-black text-2xl flex flex-col justify-center items-center gap-10 hover:scale-105 transition duration-500 ">
             <li className="hover:scale-125 transition duration-200 cursor-pointer">
-              Home
+              <a href="#Home">Home</a>
             </li>
             <li className="hover:scale-125 transition duration-200 cursor-pointer">
-              About
+              <a href="#Projects">Projects</a>
             </li>
             <li className="hover:scale-125 transition duration-200 cursor-pointer">
-              Projects
+              <a href="#Skills">Skills</a>
             </li>
             <li className="hover:scale-125 transition duration-200 cursor-pointer">
-              Contact
+              <a href="#Contact">Contact</a>
             </li>
           </ul>
         </div>

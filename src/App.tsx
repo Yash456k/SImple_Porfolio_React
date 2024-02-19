@@ -12,7 +12,7 @@ function App() {
   const [open, setOpen] = useState(false);
 
   return (
-    <>
+    <div>
       <Sidebar open={open} />
       <Header setOpen={setOpen} />
       <Hero />
@@ -21,7 +21,7 @@ function App() {
       <Explore />
 
       <Footer />
-    </>
+    </div>
   );
 }
 

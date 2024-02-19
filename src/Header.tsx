@@ -1,4 +1,8 @@
-const Header = ({ setOpen }) => {
+const Header = ({
+  setOpen,
+}: {
+  setOpen: React.Dispatch<React.SetStateAction<boolean>>;
+}) => {
   return (
     <header className="p-4 bg-gray-900">
       <nav className="container mx-auto flex justify-between items-cente">
