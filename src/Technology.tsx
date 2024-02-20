@@ -4,7 +4,7 @@ const Technology = () => {
   return (
     <section
       id="Skills"
-      className="bg-gray-800 min-h-screen flex flex-col justify-center items-center"
+      className="bg-gray-800 min-h-screen flex flex-col justify-center items-center overflow-hidden"
     >
       <div className="w-full flex flex-col justify-center items-center text-center ">
         <h1 className="font-bold text-3xl text-white mb-4 md:text-6xl hover:text-green-500 transition duration-500 ">
