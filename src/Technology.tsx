@@ -24,7 +24,7 @@ const Technology = () => {
             repeat: Infinity,
             repeatType: "reverse",
           }}
-          className="border-white border-solid border w-3/4 md:w-2/6 flex flex-col justify-around items-center p-4 hover:scale-105 transition duration-500 m-2 hover:bg-white hover:text-gray-900 "
+          className="border-white border-solid border w-3/4 md:w-2/6 flex flex-col justify-around items-center p-4 hover:scale-105 transition duration-500 m-2 hover:bg-white hover:text-gray-900"
         >
           <div>Databases</div>
           <div className="border-green-600 border-solid border-2 text-center text-green-500 p-2 md:text-xl">

@@ -20,6 +20,46 @@ const Feature = () => {
         >
           <div className="w-sm">
             <div>
+              <img className="w-65" src={"/NotesApp.png"} alt="" />
+            </div>
+            <div className="mt-4 text-sky-600 text-center">
+              <h1 className="text-xl font-bold">Notes App</h1>
+              <p className="mt-4 text-gray-600">
+                The project is Notes app which uses the MERN stack fully ,
+                Frontend i use Zustand for state management , and it
+                communicates with a hosted server written in express , i use
+                mongoDb for database management the user can login / signup ( i
+                store info using JWT and make sure user is logged in for hours
+                before they choose to logout ) the user can make a note , update
+                it or delete the notes as they choose , the notes get saved to
+                each user in database
+              </p>
+              <button
+                className="mt-8 mb-4 py-2 px-14 rounded-full bg-sky-600 text-white tracking-widest hover:bg-sky-500 transition duration-200"
+                onClick={() =>
+                  window.open(
+                    "https://yash456k-basic-notes-mern-app.netlify.app/"
+                  )
+                }
+              >
+                View Demo
+              </button>
+            </div>
+          </div>
+        </motion.div>
+
+        <motion.div
+          whileHover={{ scale: 1.08, transition: { duration: 0.3 } }}
+          animate={{ scale: [1, 1.03, 1] }}
+          transition={{
+            duration: 2,
+            repeat: Infinity,
+            repeatType: "reverse",
+          }} // Animation duration and easing
+          className="mt-16 py-4 px-4 bg-whit w-3/4 bg-white rounded-xl shadow-lg  mx-auto md:mx-0"
+        >
+          <div className="w-sm">
+            <div>
               <img className="w-65" src={"/marcus.png"} alt="" />
             </div>
             <div className="mt-4 text-sky-600 text-center">

@@ -24,7 +24,7 @@ const Hero = () => {
         variants={textVariants}
         initial="initial"
         animate="animate"
-        className="container mx-auto flex flex-col items-center justify-center h-full p-8  md:py-10  text-center "
+        className="container mx-auto flex flex-col items-center justify-center h-full p-8  md:py-10  text-center"
       >
         <div className="w-full sm:w-full lg:flex items-center justify-center flex-col mb-14 pb-2 pt-1">
           <motion.h1
@@ -52,8 +52,8 @@ const Hero = () => {
           className="flex  items-center scale-150 md:scale-110"
         >
           <a href="#Projects">
-            <button className="  bg-sky-700 transition duration-150 ease-in-out hover:bg-sky-600 lg:text-xl lg:font-bold  rounded-full text-white px-4 sm:px-10 py-2 sm:py-4 text-sm">
-              My Projects
+            <button className="bg-sky-700 transition duration-150 ease-in-out hover:bg-sky-600 lg:text-xl lg:font-bold  rounded-full text-white px-4 sm:px-10 py-2 sm:py-4 text-sm">
+              My projects
             </button>
           </a>
           <a href="#Contact">
@@ -63,7 +63,11 @@ const Hero = () => {
           </a>
         </motion.div>
       </motion.div>
-      <div className="flex text-2xl justify-center items-top mx-auto py-4 sm:py-24 gap-6 w-4/5  h-full overflow-hidden">
+      <div
+        className={
+          "flex text-2xl justify-center items-top mx-auto py-4 sm:py-24 gap-6 w-4/5  h-full overflow-hidden"
+        }
+      >
         <img
           className="object-cover  md:h-full h-3/4"
           src="https://yash456k-react-portfolio.netlify.app/jojo-removebg-preview.png"
